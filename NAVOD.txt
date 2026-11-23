@@ -1,0 +1,15 @@
+MOJE ZOO – jak získat APK (cca 5 minut, bez instalace čehokoliv)
+
+1) Vytvoř si zdarma účet na https://github.com (pokud ho nemáš).
+2) Klikni na "New repository", pojmenuj ho třeba "moje-zoo" a dej "Create repository".
+3) Klikni na "uploading an existing file" a přetáhni dovnitř CELÝ OBSAH této složky
+   (včetně skryté složky .github – na počítači zapni zobrazení skrytých souborů).
+   Potom dej "Commit changes".
+4) Otevři záložku "Actions". Sestavení se spustí samo a trvá pár minut.
+5) Až bude zelená fajfka, klikni na hotový běh a dole v "Artifacts" stáhni "MojeZoo-apk".
+   Uvnitř zipu je app-debug.apk.
+6) Pošli apk do telefonu, otevři ho a povol instalaci z neznámých zdrojů.
+
+Alternativa: otevři složku v Android Studiu a dej Build > Build APK(s).
+
+Samotná hra je v app/src/main/assets/index.html – funguje i samostatně v Chrome.
